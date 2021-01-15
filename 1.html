@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB1 - GCS</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <img src="earth.jpg" width="10%"><h1><a href = "index.html">좌표계</a></h1>
+    <strong><a href = "https://www.esri.com/ko-kr/home" target = "_blank" title = "ESRI Korea ">ESRI</strong></a>의 <strong><u>ArcMap</u></strong>에서 제공하는 좌표계 가운데 한국의 공간좌표계에 적용할 수 있는 좌표계는 24개로, 'Projected Coordinate Systems|National Grids|South Korea' 경로에 위치한다.
+    <p style = "margin-top:40px;"> 각 좌표계를 설명하면 아래의 표와 같다. 이때, 'Linear unit'은 모두 'Meter(1.0)'을 사용한다.</p>
+
+    <ol>
+      <li><a href = "1.html">GCS란 무엇인가</a></li>
+      <li><a href = "2.html">PCS</a></li>
+    </ol>
+    <h2>GCS란 무엇인가?</h2>
+    <p>지리 좌표계(영어: Geographic Coordinate System, GCS)는 지구 및 천체에 지점을 나타내기 위한 좌표계이다.
+
+지리 좌표는 일반적으로 지구를 회전 타원체(지구 타원체)로 간주하고 그 표면의 수평 위치를 나타내는 좌표와 수직 위치를 나타내는 해발 고도와 함께 표현된다.</p>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      border: 1px solid black;
+      text-align: center
+    }
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+    </style>
+
+    <table>
+      <tr>
+        <th>번호</th>
+        <th>좌표계</th>
+        <th>좌표계 이름</th>
+        <th>구분</th>
+        <th>EPSG</th>
+        <th>Datum</th>
+        <th>Spheroid</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>GCS</td>
+        <td>WGS_1984</td>
+        <td>경위도</td>
+        <td>4326</td>
+        <td>D_WGS_1984</td>
+        <td>WGS_1984</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>GCS</td>
+        <td>GRS_1980</td>
+        <td>경위도</td>
+        <td>4019</td>
+        <td>D_GRS_1980</td>
+        <td>GRS_1980</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>GCS</td>
+        <td>Bessel_1841</td>
+        <td>경위도</td>
+        <td>4004</td>
+        <td>D_Bessel_1841</td>
+        <td>Bessel_1841</td>
+      </tr>
+    </table>
+  </body>
+</html>
